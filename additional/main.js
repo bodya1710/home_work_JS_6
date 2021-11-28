@@ -199,6 +199,6 @@ let coursesArray = [
 // document.writeln(cutString(str, 5)) // 'Сила тяжести приложена к центру'
 // let str = "Сила тяжести приложена к центру масс тела";
 // let cutString = (str, n) =>{
-//     return  str.split(' ').slice(0, n).toString().split(',').join(' ');
+//     return  str.split(' ').slice(0, n).toString().replace(',',' ');
 // }
 // console.log(cutString(str, 5));

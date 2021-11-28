@@ -69,15 +69,12 @@ console.log(randomArr);
 // console.log(filterArr);
 // - Напишите функцию cutString(str, n), которая делит строку на подстроки, состоящие из n символов.
 // // document.writeln(cutString('наслаждение',3)) // [нас,лаж,ден,ие]
-let cutString = (str1, n) =>{
+let cutString = (str, n) =>{
     let arr = [];
-    let str = str1;
-    console.log(str.substring(0, n))
     while (str.length){
     arr.push(str.substring(0, n));
     str = str.substring(0, n)
     }
   return arr;
 }
-
 console.log(cutString('наслаждение',3));
